@@ -12,3 +12,25 @@ La computación en la nube es una forma de alquilar la capacidad de procesamient
 
 ¿Qué son los modelos de servicios en la nube?
 La computación en la nube se incluye en uno de los siguientes modelos de computación. Si ha estado en la computación en la nube por un tiempo, probablemente haya visto los términos infraestructura como servicio (IaaS), plataforma como servicio (PaaS) y software como servicio (SaaS) para los diferentes modelos de servicios en la nube. Estos modelos definen los diferentes niveles de responsabilidad compartida del que son responsables un proveedor de nube y un inquilino de nube.
+
+Iaas.
+Este modelo de servicio en la nube es el más cercano a la gestión de servidores físicos. Un proveedor de la nube mantiene el hardware actualizado, pero el mantenimiento del sistema operativo y la configuración de la red se dejan al inquilino de la nube. Por ejemplo, las máquinas virtuales de Azure son dispositivos de cómputo virtual totalmente operativos que se ejecutan en los centros de datos de Microsoft. Una ventaja de este modelo de servicio en la nube es la rápida implementación de nuevos dispositivos informáticos. Configurar una nueva máquina virtual es considerablemente más rápido que adquirir, instalar y configurar un servidor físico.
+
+Paas.
+Este modelo de servicio en la nube es un entorno de alojamiento gestionado. El proveedor de la nube administra las máquinas virtuales y los recursos de red, y el inquilino de la nube implementa sus aplicaciones en el entorno de alojamiento administrado. Por ejemplo, Azure App Services proporciona un entorno de hospedaje administrado donde los desarrolladores pueden cargar sus aplicaciones web sin tener que lidiar con los requisitos físicos de hardware y software.
+
+Saas.
+
+En este modelo de servicio en la nube, el proveedor de la nube gestiona todos los aspectos del entorno de la aplicación, como máquinas virtuales, recursos de red, almacenamiento de datos y aplicaciones. El inquilino de la nube solo necesita proporcionar sus datos a la aplicación administrada por el proveedor de la nube. Por ejemplo, Office 365 proporciona una versión completamente funcional de Office que se ejecuta en la nube. Todo lo que necesita hacer es crear su contenido y Office 365 se encarga de todo lo demás.
+
+public cloud.
+Los servicios se ofrecen a través de la Internet pública y están disponibles para cualquier persona que desee adquirirlos. Los recursos en la nube, como los servidores y el almacenamiento, son propiedad y están operados por un proveedor de servicios en la nube externo y se entregan a través de Internet.
+
+private cloud.
+
+Los recursos informáticos son utilizados exclusivamente por usuarios de una empresa u organización. Una nube privada se puede ubicar físicamente en el centro de datos en el sitio de su organización. También puede ser alojado por un proveedor de servicios externo.
+
+Hybrid cloud.
+Este entorno informático combina una nube pública y una nube privada al permitir que los datos y las aplicaciones se compartan entre ellos.
+
+

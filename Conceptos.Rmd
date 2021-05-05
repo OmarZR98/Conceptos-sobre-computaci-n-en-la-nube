@@ -8,3 +8,4 @@ output: pdf_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+La computación en la nube es una forma de alquilar la capacidad de procesamiento y el almacenamiento del centro de datos de otra persona. Puede tratar los recursos de la nube como lo haría con sus recursos en su propio centro de datos. Cuando haya terminado de usarlos, se los devuelve. Se le factura solo por lo que usa.

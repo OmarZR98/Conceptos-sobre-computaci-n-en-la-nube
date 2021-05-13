@@ -13,5 +13,28 @@ Functions es una opción ideal si le preocupa solo el código que ejecuta el ser
 Azure kubernetes. https://azure.microsoft.com/mediahandler/files/resourcefiles/kubernetes-learning-path/Kubernetes%20Learning%20Path%20version%201.0.pdf
 
 
-## Clasificación de los datos. ##
+## Clasificación de los datos.
+
+### 1. Estructurados.
+   Los datos estructurados, a veces denominados datos relacionales, son datos que se ajustan a un esquema estricto, por lo que todos los datos tienen los mismos campos o propiedades. El 
+   esquema compartido hace que sea muy fácil realizar búsquedas en este tipo de datos con lenguajes de consulta como SQL (Lenguaje de consulta estructurado). Esta capacidad hace que este 
+   estilo de los datos sea idóneo en usos como los sistemas CRM, las reservas y la administración de inventarios.
+
+### 2. Datos semiestructurados.
+   Los datos semiestructurados están menos organizados que los estructurados y no se almacenan en formato relacional, dado que los campos no encajan fácilmente en tablas, filas y 
+   columnas. Los datos semiestructurados contienen etiquetas que hacen evidentes la organización y la jerarquía de los datos (por ejemplo, pares clave-valor). Los datos 
+   semiestructurados también se conocen como datos no relacionales o datos NoSQL. La expresión y la estructura de los datos de este estilo se definen mediante un lenguaje de 
+   serialización.
+### 3. Datos no estructurados.
+
+  La organización de los datos no estructurados es ambigua. A menudo, los datos no estructurados se entregan en archivos, como fotos o vídeos. El propio archivo de vídeo puede tener una 
+  estructura general e incluir metadatos semiestructurados, pero los datos que forman el vídeo en sí mismo no están estructurados. Por tanto, las fotos, los vídeos y otros archivos 
+  similares se clasifican como datos no estructurados.
+
+Ejemplos de datos no estructurados son:
+
+* Archivos multimedia, como fotos, vídeos y archivos de audio
+* Archivos de Office, como documentos de Word
+* Archivos de texto
+* Archivos de registro
 

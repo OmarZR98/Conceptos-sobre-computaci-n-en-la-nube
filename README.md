@@ -42,3 +42,10 @@ Ejemplos de datos no estructurados son:
 Las bases de datos transaccionales se conocen con frecuencia como sistemas OLTP (Procesamiento de transacciones en línea). Los sistemas OLTP normalmente admiten muchos usuarios, tienen tiempos de respuesta rápidos y controlan grandes volúmenes de datos. También son altamente disponibles (lo que significa que tienen un tiempo de inactividad mínimo) y normalmente controlan transacciones relativamente sencillas o pequeñas.
 
 Por el contrario, los sistemas OLAP (Procesamiento analítico en línea) normalmente admiten menos usuarios, tienen tiempos de respuesta más largos, su disponibilidad puede ser menor y, por lo general, controlan transacciones grandes y complejas.
+
+## Roles de disco
+Cada disco puede tomar uno de estos tres roles en una máquina virtual:
+
++ Disco de SO. Un disco de cada máquina virtual contiene los archivos del sistema operativo. Cuando se crea una máquina virtual, se selecciona una imagen de máquina virtual y se fija el sistema operativo y el disco del sistema operativo que está conectado al nuevo equipo. El disco de SO tiene una capacidad máxima de 2 048 GB.
++ Disco de datos. Puede agregar uno o más discos virtuales de datos a cada máquina virtual para almacenar los datos. Por ejemplo, los archivos de base de datos, el contenido estático de sitios web o el código de aplicación personalizado deben almacenarse en discos de datos. El número de discos de datos que puede agregar depende del tamaño de la máquina virtual. Cada disco de datos tiene una capacidad máxima de 32 767 GB.
++ Disco temporal. Cada máquina virtual contiene un solo disco temporal, que se usa para las aplicaciones de almacenamiento a corto plazo, como los archivos de paginación y los de intercambio. El contenido de los discos temporales se pierde durante los eventos de mantenimiento, por lo que no se deben usar para datos críticos. Estos discos son locales para el servidor y no se almacenan en una cuenta de almacenamiento.

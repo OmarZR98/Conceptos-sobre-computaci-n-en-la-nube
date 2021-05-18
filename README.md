@@ -76,4 +76,18 @@ Si ejecuta una máquina virtual antigua, es posible que tenga discos no administ
 + El SSD Ultra ofrece el mejor rendimiento de los tipos de disco en Azure
 + Los discos de nivel estándar no garantizan un rendimiento mínimo. Para ello, use discos SSD Premium.
 
+## Azure DevOps Services
+Azure DevOps Services es un conjunto de servicios que aborda cada fase del ciclo de vida de desarrollo de software.
 
+* Azure Repos es un repositorio de código fuente centralizado en el que los profesionales de desarrollo de software, ingeniería DevOps y documentación pueden publicar su código para su revisión y colaboración.
+* Azure Boards es un conjunto de administración de proyectos ágil que incluye paneles Kanban, informes, ideas de seguimiento y trabajo desde epopeyas de alto nivel hasta incidencias y elementos de trabajo.
+* Azure Pipelines es una herramienta de automatización de canalizaciones de CI/CD.
+* Azure Artifacts es un repositorio para hospedar artefactos, como código fuente compilado, que se puede incluir en los pasos de canalización de pruebas o de implementación.
+* Azure Test Plans es una herramienta de pruebas automatizadas que se puede usar en una canalización de CI/CD para garantizar la calidad antes de publicar una versión de software.
+
+Si su objetivo es automatizar la creación y la administración de un entorno de laboratorio de pruebas, considere la posibilidad de elegir Azure DevTest Labs. De las tres herramientas y servicios que hemos descrito, es el único que ofrece esta funcionalidad.
+
+### Azure DevTest Labs
+Azure DevTest Labs proporciona un medio automatizado para administrar el proceso de compilación, configuración y anulación de máquinas virtuales que contienen las compilaciones de los proyectos de software. De esta manera, los desarrolladores y los evaluadores pueden realizar pruebas en diferentes entornos y compilaciones. Esta funcionalidad no se limita a las máquinas virtuales. Cualquier cosa que se pueda implementar en Azure a través de una plantilla de Resource Manager se puede aprovisionar a través de DevTest Labs. El aprovisionamiento de entornos de laboratorio creados previamente con las herramientas y configuraciones necesarias ya instaladas supone un gran ahorro de tiempo para los desarrolladores y los profesionales de control de calidad.
+
+Supongamos que necesita probar una nueva característica en una versión anterior de un sistema operativo. Azure DevTest Labs puede configurar todo automáticamente a petición. Una vez completadas las pruebas, DevTest Labs puede apagar y desaprovisionar la máquina virtual, lo que ahorra dinero cuando no está en uso. Para controlar los costos, el equipo de administración puede restringir el número de laboratorios que se pueden crear, el tiempo de ejecución, etc.

@@ -91,3 +91,21 @@ Si su objetivo es automatizar la creación y la administración de un entorno de
 Azure DevTest Labs proporciona un medio automatizado para administrar el proceso de compilación, configuración y anulación de máquinas virtuales que contienen las compilaciones de los proyectos de software. De esta manera, los desarrolladores y los evaluadores pueden realizar pruebas en diferentes entornos y compilaciones. Esta funcionalidad no se limita a las máquinas virtuales. Cualquier cosa que se pueda implementar en Azure a través de una plantilla de Resource Manager se puede aprovisionar a través de DevTest Labs. El aprovisionamiento de entornos de laboratorio creados previamente con las herramientas y configuraciones necesarias ya instaladas supone un gran ahorro de tiempo para los desarrolladores y los profesionales de control de calidad.
 
 Supongamos que necesita probar una nueva característica en una versión anterior de un sistema operativo. Azure DevTest Labs puede configurar todo automáticamente a petición. Una vez completadas las pruebas, DevTest Labs puede apagar y desaprovisionar la máquina virtual, lo que ahorra dinero cuando no está en uso. Para controlar los costos, el equipo de administración puede restringir el número de laboratorios que se pueden crear, el tiempo de ejecución, etc.
+
+## Azure Advisor
+Azure Advisor evalúa los recursos de Azure y hace recomendaciones que contribuyen a mejorar la confiabilidad, la seguridad y el rendimiento, lograr la excelencia operativa y reducir los costos. Advisor está diseñado para ayudarle a ahorrar tiempo en la optimización en la nube. El servicio de recomendaciones sugiere medidas que puede adoptar de inmediato, posponer o descartar.
+
+Las recomendaciones están disponibles con Azure Portal y la API. Además, es posible configurar notificaciones para estar al tanto de las nuevas recomendaciones.
+
+## Azure Monitor
+Azure Monitor es una plataforma que permite recopilar, analizar y mostrar datos, así como llevar a cabo acciones en función de las métricas y los datos registrados en todo el entorno local y de Azure.
+
+## Azure Service Health
+Azure Service Health proporciona una vista personalizada del estado de los servicios, regiones y recursos de Azure en los que se basa su infraestructura. El sitio web status.azure.com, que muestra solo los principales problemas que afectan de manera generalizada a los clientes de Azure, no refleja el panorama completo. Sin embargo, Azure Service Health muestra los problemas detectados de mayor y menor importancia que le afectan. Los problemas del servicio son poco frecuentes, pero es importante estar preparado para lo inesperado. Por ello, puede configurar alertas que le ayuden a evaluar las interrupciones y el mantenimiento planeado. Después de una interrupción, Service Health proporciona informes de incidentes oficiales, llamados análisis de la causa principal (RCA), que puede compartir con las partes interesadas.
+
+Elija Azure Advisor si quiere realizar un análisis de los recursos implementados. Azure Advisor analiza la configuración y el uso de los recursos, y ofrece sugerencias sobre cómo optimizar la confiabilidad, la seguridad, el rendimiento, los costos y las operaciones según los procedimientos recomendados por los expertos.
+
+Si quiere mantener un control de Azure, especialmente de los servicios y regiones de los que dependa, debe elegir Azure Service Health. Puede ver el estado actual de los servicios de Azure de los que depende, las próximas interrupciones planeadas y los próximos servicios que se lanzarán. Puede configurar alertas que le permitan estar al día de incidentes y tiempos de inactividad futuros sin tener que visitar el panel con regularidad.
+
+Elija Azure Monitor si quiere medir eventos personalizados y otros datos de telemetría recopilados. Los eventos personalizados, como los agregados al código fuente de las aplicaciones de software, pueden ayudar a identificar y diagnosticar la razón por la que la aplicación se comporta de una manera determinada.
+

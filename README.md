@@ -109,3 +109,23 @@ Si quiere mantener un control de Azure, especialmente de los servicios y regione
 
 Elija Azure Monitor si quiere medir eventos personalizados y otros datos de telemetría recopilados. Los eventos personalizados, como los agregados al código fuente de las aplicaciones de software, pueden ayudar a identificar y diagnosticar la razón por la que la aplicación se comporta de una manera determinada.
 
+## Azure Functions
+Con el servicio Azure Functions, puede hospedar un único método o función mediante un lenguaje de programación popular en la nube que se ejecuta en respuesta a un evento. Un ejemplo de un evento podría ser una solicitud HTTP, un mensaje nuevo en una cola o un mensaje en un temporizador.
+
+La solución Azure Functions es ideal si le preocupa solo el código que ejecuta el servicio y no la infraestructura o la plataforma subyacente. Azure Functions se usa con más frecuencia cuando es necesario realizar un trabajo en respuesta a un evento. Esto suele realizarse mediante una solicitud REST, un temporizador o un mensaje de otro servicio de Azure, y cuando ese trabajo puede completarse rápidamente, en segundos o en menos tiempo.
+
+## Azure Logic Apps
+Logic Apps es una plataforma de desarrollo de poco código o sin código hospedada como un servicio en la nube. El servicio le ayuda a automatizar y organizar tareas, procesos empresariales y flujos de trabajo cuando tiene que integrar aplicaciones, datos, sistemas y servicios en empresas u organizaciones. Logic Apps simplifica el diseño y la creación de soluciones escalables en la nube, en el entorno local o en ambos. Esta solución abarca la integración de aplicaciones, la integración de datos, la integración de sistemas, la integración de aplicaciones empresariales (EAI) y la integración de negocio a negocio (B2B).
+
+Azure Logic Apps está diseñado en un entorno web y puede ejecutar una lógica que los servicios de Azure desencadenan sin escribir ningún código. Las aplicaciones se pueden compilar vinculando desencadenadores con acciones mediante conectores. Un desencadenador es un evento (como un temporizador) que hace que una aplicación se ejecute, que un mensaje nuevo se envíe a una cola o que se emita una solicitud HTTP. Una acción es una tarea o paso que se puede ejecutar. Hay acciones lógicas, como las que encontraría en la mayoría de los lenguajes de programación. Entre los ejemplos de acciones se incluyen trabajar con variables, instrucciones de decisión y bucles, y tareas que analizan y modifican datos.
+
+Para crear soluciones de integración empresarial con Azure Logic Apps, se puede elegir entre una galería creciente de más de 200 conectores. La galería incluye servicios como Salesforce, SAP, Oracle DB y recursos compartidos de archivos.
+
+### ¿Cuál es la diferencia entre estos servicios?
+Puede llamar a Azure Functions desde Azure Logic Apps y viceversa. La principal diferencia entre los dos servicios es su intención. Azure Functions es un servicio informático sin servidor, y Azure Logic Apps está diseñado para ser un servicio de orquestación sin servidor. Aunque puede usar Azure Functions para orquestar un proceso empresarial de larga duración que implique varias conexiones, su caso de uso principal no era ese cuando se diseñó.
+
+Además, los dos servicios tienen un precio diferente. Los precios de Azure Functions se basan en el número de ejecuciones y en el tiempo ejecución de cada una. Los precios de Logic Apps se basan en el número de ejecuciones y el tipo de conectores que se usan
+
+Ayudamos a la empresa a elegir Azure Functions cuando necesitó compilar una solución que extrajese la lógica de código de un servicio de Windows en C# existente.
+
+También le ayudamos a elegir Azure Logic Apps cuando necesitó orquestar un flujo de trabajo para evitar la pérdida de clientes tras una experiencia de compra negativa.

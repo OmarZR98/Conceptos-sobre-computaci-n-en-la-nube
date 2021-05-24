@@ -147,3 +147,11 @@ Azure Sphere consta de tres partes:
 * La segunda parte es un sistema operativo (SO) Linux personalizado, que controla la comunicación con el servicio de seguridad y puede ejecutar el software del proveedor.
 * La tercera parte es el servicio de seguridad de Azure Sphere, también conocido como AS3. Su trabajo es asegurarse de que el dispositivo no se ha puesto en peligro de forma malintencionada. 
 
+Azure proporciona herramientas y servicios que pueden ayudar a detectar importantes eventos de seguridad y a tomar medidas conforme a ellos. También proporciona formas de ayudar a proteger los datos, lo que, para empezar, puede evitar que se produzcan incidentes de seguridad.
+
+### seguridad con AZURE
+
+Azure Security Center proporciona visibilidad del nivel de seguridad en todos los servicios, tanto en Azure como en el entorno local.
+Azure Sentinel agrega datos de seguridad de muchos orígenes diferentes y proporciona capacidades adicionales para la detección de amenazas y la respuesta a estas.
+Azure Key Vault almacena los secretos de las aplicaciones, como contraseñas, claves de cifrado y certificados, en una única ubicación central.
+Azure Dedicated Host proporciona servidores físicos dedicados para hospedar las máquinas virtuales de Azure para Windows y Linux.

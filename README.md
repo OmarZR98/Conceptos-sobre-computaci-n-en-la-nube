@@ -155,3 +155,31 @@ Azure Security Center proporciona visibilidad del nivel de seguridad en todos lo
 Azure Sentinel agrega datos de seguridad de muchos orígenes diferentes y proporciona capacidades adicionales para la detección de amenazas y la respuesta a estas.
 Azure Key Vault almacena los secretos de las aplicaciones, como contraseñas, claves de cifrado y certificados, en una única ubicación central.
 Azure Dedicated Host proporciona servidores físicos dedicados para hospedar las máquinas virtuales de Azure para Windows y Linux.
+
+## Capas de la defensa en profundidad
+
+Cada capa proporciona protección de modo que, si se produce una brecha en una capa, ya existe otra en funcionamiento para evitar una mayor exposición. Este enfoque elimina la dependencia de cualquier capa de protección única. Ralentiza un ataque y proporciona telemetría de alertas sobre la que pueden actuar los equipos de seguridad, ya sea de forma automática o manual.
+
+Aquí tiene una breve descripción del rol de cada capa:
+
+La capa de seguridad física es la primera línea de defensa para proteger el hardware informático del centro de datos.
+La capa de identidad y acceso controla el acceso a la infraestructura y al control de cambios.
+La capa perimetral usa protección frente a ataques de denegación de servicio distribuido (DDoS) para filtrar los ataques a gran escala antes de que puedan causar una denegación de servicio para los usuarios.
+* La capa de red limita la comunicación entre los recursos a través de controles de acceso y segmentación.
+* La capa de proceso protege el acceso a las máquinas virtuales.
+* La capa de aplicación ayuda a garantizar que las aplicaciones sean seguras y estén libres de vulnerabilidades de seguridad.
+* La capa de datos controla el acceso a los datos empresariales y de clientes que es necesario proteger.
+Estas capas proporcionan una guía para ayudarle a tomar decisiones de configuración de seguridad en todas las capas de las aplicaciones.
+
+### Azure firewall.
+
+Azure Firewall es un servicio de seguridad de red administrado y basado en la nube que ayuda a proteger los recursos en las redes virtuales de Azure. Una red virtual es similar a una red tradicional con la que trabajaría en su propio centro de datos. Es un bloque de creación fundamental para la red privada que permite que las máquinas virtuales y otros recursos de proceso se comuniquen de forma segura entre sí, con Internet y con redes locales.
+
+Azure Firewall es un firewall con estado. Un firewall con estado analiza el contexto completo de una conexión de red, no solo un paquete individual de tráfico de red. Azure Firewall incluye alta disponibilidad y escalabilidad en la nube sin restricciones.
+
+Con Azure Firewall, puede configurar:
+
+* Reglas de aplicación que definen los nombres de dominio completos (FQDN) a los que se puede acceder desde una subred.
+* Reglas de red que definen la dirección de origen, el protocolo, el puerto de destino y la dirección de destino.
+* Reglas de traducción de direcciones de red (NAT) que definen los puertos y las direcciones IP de destino para traducir las solicitudes entrantes.
+

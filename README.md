@@ -183,3 +183,21 @@ Con Azure Firewall, puede configurar:
 * Reglas de red que definen la dirección de origen, el protocolo, el puerto de destino y la dirección de destino.
 * Reglas de traducción de direcciones de red (NAT) que definen los puertos y las direcciones IP de destino para traducir las solicitudes entrantes.
 
+# Azure ACTIVE DIRECTORY
+
++ La autenticación (AuthN) establece la identidad del usuario.
++ La autorización (AuthZ) establece el nivel de acceso que tiene un usuario autenticado.
++ El inicio de sesión único (SSO) permite a los usuarios iniciar sesión una vez y utilizar esa credencial para acceder a varios recursos y aplicaciones.
++ Azure Active Directory (Azure AD) es un servicio de administración de acceso e identidades basado en la nube. Azure AD permite a una organización controlar el acceso a las aplicaciones y los recursos en función de sus requisitos empresariales.
++ Azure AD Multi-Factor Authentication proporciona seguridad adicional para las identidades, ya que se requieren dos o más elementos para una autenticación completa. En general, la autenticación multifactor puede incluir algo que el usuario sabe, algo que tiene y algo que es.
++ El acceso condicional es una herramienta que Azure AD usa para permitir o denegar el acceso a los recursos en función de señales de identidad, como la ubicación del usuario.
+
+## gobernanza en la nube.
+
+La gobernanza en la nube requiere un buen análisis y recopilar una serie de requisitos. Por suerte, Cloud Adoption Framework para Azure nos puede ayudar a definir e implementar la estrategia de gobernanza. Hay varios servicios y características de Azure que respaldan estos esfuerzos:
+
++ El control de acceso basado en roles de Azure (RBAC de Azure) permite crear roles que definen permisos de acceso.
++ Los bloqueos de recursos impiden que se eliminen o modifiquen recursos por error.
++ Las etiquetas de recursos proporcionan información extra, o metadatos, sobre los recursos.
++ Azure Policy es un servicio de Azure que permite crear, asignar y administrar directivas que controlan o auditan los recursos.
++ Azure Blueprints permite definir un conjunto repetible de herramientas de gobernanza y recursos de Azure estándar que la organización necesita.
